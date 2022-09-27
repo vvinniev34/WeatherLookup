@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
+}
+
+.App-Hot {
+  background-color:chocolate;
+  transition: 0.5s ease;
+}
+
+.App-Cold {
+  background-color: cornflowerblue;
+  transition: 0.5s ease;
+}
+
+main {
+  min-height: 100vh;
+  padding: 25px;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: azure;
+  border-radius: 16px 16px 16px 16px;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  font-size: 18px;
+}
+
+.location-box-hot .location, .location-box-cold .location {
+  color:darkgray;
+  font-size: 64px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.location-box-hot .location {
+  color:darkgray;
+}
+
+.location-box-cold .location {
+  color:aliceblue;
+}
+
+.location-box-hot .date, .location-box-cold .date {
+  color:darkgray;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.location-box-hot .date {
+  color:darkgray;
+}
+.location-box-cold .date {
+  color:aliceblue;
+}
+
+.weather-box-hot, .weather-box-cold {
+  text-align: center;
+}
+
+.weather-box-hot .temperature, .weather-box-cold .temperature {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color:azure;
+  border-radius: 16px;
+
+  padding: 15px 25px;
+  font-size: 100px;
+  font-weight: 900;
+  text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box-hot .temperature {
+  color: dimgray;
+}
+
+.weather-box-cold .temperature {
+  color:blanchedalmond;
+}
+
+.weather-box-hot .weather, .weather-box-cold .weather {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.weather-box-hot .weather {
+  color:darkgray;
+}
+
+.weather-box-cold .weather{
+  color:aliceblue;
+}
